@@ -1,6 +1,6 @@
 {
     "name": "rem-craft",
-    "version": "2.6.12",
+    "version": "3.0.2",
     "description": "My theme for siyuan",
     "main": "theme.js",
     "scripts": {
@@ -8,7 +8,7 @@
         "theme": "sass --watch theme:theme -s compressed --no-source-map",
         "plugin": "sass --watch plugin:plugin -s compressed --no-source-map",
         "commit": "git add . && git cz",
-        "release": "standard-version && git push --follow-tags origin main",
+        "release": "standard-version",
         "amend": "git add . && git commit --amend --no-edit && git push --force"
     },
     "config": {
