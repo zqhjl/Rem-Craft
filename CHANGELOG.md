@@ -1,6 +1,8 @@
 # 版本日志 | Changelog 
 
 
+### [3.0.1](https://github.com/ba0gu0/Rem-Craft/compare/v3.0.0...v3.0.1) (2024-07-24)
+
 ## 3.0.0 (2024-07-24)
 
 
