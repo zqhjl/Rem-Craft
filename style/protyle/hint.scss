@@ -46,6 +46,7 @@
 
     > div[style*='flex'] {
         margin-top: menu.$padding;
+        max-height: 90vh;
     }
 
     > .emojis {
