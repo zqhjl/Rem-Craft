@@ -29,8 +29,8 @@ $spacing-hover: math.div($switch-h - $btn-w-hover, 2) - $border-w;
     border: none;
     width: $btn-w;
     height: $btn-w;
-    left: $spacing;
-    top: $spacing;
+    left: $spacing + 6px;
+    top: $spacing + 6px;
     bottom: unset;
     box-shadow: none;
     border-radius: get($radius, "max");
@@ -40,8 +40,8 @@ $spacing-hover: math.div($switch-h - $btn-w-hover, 2) - $border-w;
     &::after {
       width: $btn-w-hover;
       height: $btn-w-hover;
-      left: $spacing-hover;
-      top: $spacing-hover;
+      left: $spacing-hover + 7px;
+      top: $spacing-hover + 7px;
     }
   }
 
